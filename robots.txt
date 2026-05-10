@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+Disallow: /panier.html
+
+Sitemap: https://maison-aurelia-demo.nextiweb.ca/sitemap.xml

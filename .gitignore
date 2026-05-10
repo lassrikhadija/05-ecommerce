@@ -1,0 +1,28 @@
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*~
+
+# Backup / temp
+*.bak
+*.orig
+*.tmp
+
+# Logs
+*.log
+
+# Python (script optimize-images éventuel)
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Originaux images lourds (avant optimisation WebP/AVIF)
+assets/img/originals/
+assets/img/raw/

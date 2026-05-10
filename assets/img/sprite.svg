@@ -1,0 +1,215 @@
+<svg xmlns="http://www.w3.org/2000/svg" style="display:none">
+<defs>
+  <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" stop-color="#E0C699"/>
+    <stop offset="40%" stop-color="#C9A878"/>
+    <stop offset="100%" stop-color="#8E6F3D"/>
+  </linearGradient>
+  <linearGradient id="goldGradV" x1="0%" y1="0%" x2="0%" y2="100%">
+    <stop offset="0%" stop-color="#E8D2A6"/>
+    <stop offset="50%" stop-color="#C9A878"/>
+    <stop offset="100%" stop-color="#8E6F3D"/>
+  </linearGradient>
+  <radialGradient id="onyxGrad" cx="40%" cy="35%">
+    <stop offset="0%" stop-color="#3A2F26"/>
+    <stop offset="60%" stop-color="#100B07"/>
+    <stop offset="100%" stop-color="#000"/>
+  </radialGradient>
+  <radialGradient id="diamondGrad" cx="50%" cy="40%">
+    <stop offset="0%" stop-color="#FFFFFF"/>
+    <stop offset="40%" stop-color="#E8E0D0"/>
+    <stop offset="100%" stop-color="#9A8E78"/>
+  </radialGradient>
+  <radialGradient id="emeraldGrad" cx="40%" cy="35%">
+    <stop offset="0%" stop-color="#5FAA89"/>
+    <stop offset="60%" stop-color="#1F4A3A"/>
+    <stop offset="100%" stop-color="#0A1F18"/>
+  </radialGradient>
+  <radialGradient id="pearlGrad" cx="35%" cy="30%">
+    <stop offset="0%" stop-color="#FFFFFF"/>
+    <stop offset="50%" stop-color="#F0E8DA"/>
+    <stop offset="100%" stop-color="#B5A98F"/>
+  </radialGradient>
+  <radialGradient id="rubyGrad" cx="40%" cy="35%">
+    <stop offset="0%" stop-color="#A33848"/>
+    <stop offset="70%" stop-color="#5C1F2B"/>
+    <stop offset="100%" stop-color="#220910"/>
+  </radialGradient>
+</defs>
+
+<!-- Maison Aurélia logo mark -->
+<symbol id="logo-mark" viewBox="0 0 64 64">
+  <circle cx="32" cy="32" r="28" fill="none" stroke="currentColor" stroke-width="1.5"/>
+  <path d="M22 42 L32 18 L42 42 M26 34 L38 34" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round" stroke-linecap="round"/>
+  <circle cx="32" cy="32" r="22" fill="none" stroke="currentColor" stroke-width="0.6" opacity="0.4"/>
+</symbol>
+
+<!-- 1. Bague Solis — signet onyx -->
+<symbol id="j-solis" viewBox="0 0 200 250">
+  <g transform="translate(100,135)">
+    <ellipse cx="0" cy="0" rx="76" ry="74" fill="none" stroke="url(#goldGrad)" stroke-width="14"/>
+    <ellipse cx="0" cy="-2" rx="76" ry="74" fill="none" stroke="#FFFFFF" stroke-width="1" opacity="0.25"/>
+    <ellipse cx="0" cy="-12" rx="44" ry="34" fill="url(#goldGrad)"/>
+    <ellipse cx="0" cy="-12" rx="44" ry="34" fill="none" stroke="#8E6F3D" stroke-width="0.8"/>
+    <ellipse cx="0" cy="-14" rx="32" ry="22" fill="url(#onyxGrad)"/>
+    <ellipse cx="-10" cy="-20" rx="6" ry="3" fill="#FFFFFF" opacity="0.28"/>
+  </g>
+</symbol>
+
+<!-- 2. Collier Liane — chaîne ondulée pendentif perle -->
+<symbol id="j-liane" viewBox="0 0 200 250">
+  <path d="M30 35 Q60 60 100 50 T 170 35" fill="none" stroke="url(#goldGrad)" stroke-width="2.2"/>
+  <path d="M30 35 Q60 80 100 90 Q140 80 170 35" fill="none" stroke="url(#goldGrad)" stroke-width="2.2"/>
+  <path d="M100 90 Q98 110 95 130 Q92 150 100 165" fill="none" stroke="url(#goldGrad)" stroke-width="2.5"/>
+  <path d="M100 90 Q102 110 105 130 Q108 150 100 165" fill="none" stroke="url(#goldGrad)" stroke-width="2.5" opacity="0.5"/>
+  <circle cx="100" cy="178" r="14" fill="url(#pearlGrad)" stroke="#8E6F3D" stroke-width="0.6"/>
+  <circle cx="96" cy="173" r="3" fill="#FFFFFF" opacity="0.6"/>
+  <path d="M100 165 L96 192 M100 165 L104 192" stroke="url(#goldGrad)" stroke-width="1.2"/>
+</symbol>
+
+<!-- 3. Boucles Mirage — pendantes croissants -->
+<symbol id="j-mirage" viewBox="0 0 200 250">
+  <g transform="translate(70,90)">
+    <circle cx="0" cy="0" r="6" fill="url(#goldGrad)"/>
+    <circle cx="0" cy="0" r="6" fill="none" stroke="#8E6F3D" stroke-width="0.5"/>
+    <path d="M0 6 L0 30" stroke="url(#goldGrad)" stroke-width="1.2"/>
+    <path d="M-22 30 Q0 88 22 30 Q0 60 -22 30 Z" fill="url(#goldGradV)" stroke="#8E6F3D" stroke-width="0.6"/>
+    <ellipse cx="0" cy="92" rx="6" ry="3" fill="url(#pearlGrad)"/>
+  </g>
+  <g transform="translate(130,90)">
+    <circle cx="0" cy="0" r="6" fill="url(#goldGrad)"/>
+    <circle cx="0" cy="0" r="6" fill="none" stroke="#8E6F3D" stroke-width="0.5"/>
+    <path d="M0 6 L0 30" stroke="url(#goldGrad)" stroke-width="1.2"/>
+    <path d="M-22 30 Q0 88 22 30 Q0 60 -22 30 Z" fill="url(#goldGradV)" stroke="#8E6F3D" stroke-width="0.6"/>
+    <ellipse cx="0" cy="92" rx="6" ry="3" fill="url(#pearlGrad)"/>
+  </g>
+</symbol>
+
+<!-- 4. Bracelet Onde — jonc martelé ouvert -->
+<symbol id="j-onde" viewBox="0 0 200 250">
+  <g transform="translate(100,125)">
+    <path d="M -90 0 A 90 70 0 1 1 80 -32" fill="none" stroke="url(#goldGrad)" stroke-width="14" stroke-linecap="round"/>
+    <path d="M -88 -2 A 88 68 0 1 1 78 -32" fill="none" stroke="#FFFFFF" stroke-width="1" stroke-linecap="round" opacity="0.25"/>
+    <circle cx="80" cy="-32" r="9" fill="url(#goldGrad)"/>
+    <circle cx="-90" cy="0" r="9" fill="url(#goldGrad)"/>
+    <circle cx="-50" cy="-50" r="2" fill="#FFFFFF" opacity="0.4"/>
+    <circle cx="20" cy="-66" r="2" fill="#FFFFFF" opacity="0.4"/>
+    <circle cx="-78" cy="22" r="2" fill="#FFFFFF" opacity="0.3"/>
+  </g>
+</symbol>
+
+<!-- 5. Bague Aurore — solitaire diamant à griffes -->
+<symbol id="j-aurore" viewBox="0 0 200 250">
+  <g transform="translate(100,150)">
+    <ellipse cx="0" cy="0" rx="68" ry="66" fill="none" stroke="url(#goldGrad)" stroke-width="9"/>
+    <ellipse cx="0" cy="-2" rx="68" ry="66" fill="none" stroke="#FFFFFF" stroke-width="0.8" opacity="0.3"/>
+    <g transform="translate(0,-60)">
+      <path d="M-12 -8 L0 -22 L12 -8 L8 12 L-8 12 Z" fill="url(#diamondGrad)" stroke="#8E6F3D" stroke-width="0.4"/>
+      <path d="M-12 -8 L12 -8 M-8 12 L0 -22 L8 12" stroke="#FFFFFF" stroke-width="0.4" opacity="0.6" fill="none"/>
+      <path d="M0 -22 L-12 -8 M0 -22 L12 -8" stroke="#FFFFFF" stroke-width="0.6" opacity="0.5" fill="none"/>
+      <path d="M-14 -10 L-14 -2 M14 -10 L14 -2 M-9 13 L-9 19 M9 13 L9 19" stroke="url(#goldGrad)" stroke-width="2" stroke-linecap="round"/>
+    </g>
+  </g>
+</symbol>
+
+<!-- 6. Pendentif Étoile — médaillon étoile émeraude -->
+<symbol id="j-etoile" viewBox="0 0 200 250">
+  <path d="M30 30 Q100 80 170 30" fill="none" stroke="url(#goldGrad)" stroke-width="2"/>
+  <path d="M100 80 L100 110" stroke="url(#goldGrad)" stroke-width="1.4"/>
+  <g transform="translate(100,150)">
+    <circle r="42" fill="url(#goldGradV)"/>
+    <circle r="42" fill="none" stroke="#8E6F3D" stroke-width="0.8"/>
+    <circle r="36" fill="none" stroke="#FFFFFF" stroke-width="0.4" opacity="0.3"/>
+    <path d="M0 -28 L8 -8 L28 -4 L13 8 L18 28 L0 18 L-18 28 L-13 8 L-28 -4 L-8 -8 Z"
+          fill="url(#goldGrad)" stroke="#8E6F3D" stroke-width="0.5"/>
+    <circle cx="0" cy="2" r="9" fill="url(#emeraldGrad)"/>
+    <circle cx="-3" cy="-1" r="2" fill="#FFFFFF" opacity="0.5"/>
+  </g>
+</symbol>
+
+<!-- 7. Boucles Étincelle — créoles fines -->
+<symbol id="j-etincelle" viewBox="0 0 200 250">
+  <g transform="translate(70,125)">
+    <circle r="34" fill="none" stroke="url(#goldGrad)" stroke-width="6"/>
+    <circle r="34" fill="none" stroke="#FFFFFF" stroke-width="0.6" opacity="0.3"/>
+    <circle cx="0" cy="-34" r="4" fill="url(#goldGrad)"/>
+  </g>
+  <g transform="translate(130,125)">
+    <circle r="34" fill="none" stroke="url(#goldGrad)" stroke-width="6"/>
+    <circle r="34" fill="none" stroke="#FFFFFF" stroke-width="0.6" opacity="0.3"/>
+    <circle cx="0" cy="-34" r="4" fill="url(#goldGrad)"/>
+  </g>
+</symbol>
+
+<!-- 8. Bague Duo — deux anneaux entrelacés or jaune & or rose -->
+<symbol id="j-duo" viewBox="0 0 200 250">
+  <g transform="translate(100,135)">
+    <ellipse cx="-22" cy="0" rx="60" ry="58" fill="none" stroke="url(#goldGrad)" stroke-width="10"/>
+    <ellipse cx="22" cy="0" rx="60" ry="58" fill="none" stroke="#D4A574" stroke-width="10"/>
+    <ellipse cx="-22" cy="-2" rx="60" ry="58" fill="none" stroke="#FFFFFF" stroke-width="0.6" opacity="0.3"/>
+    <ellipse cx="22" cy="-2" rx="60" ry="58" fill="none" stroke="#FFFFFF" stroke-width="0.6" opacity="0.3"/>
+  </g>
+</symbol>
+
+<!-- 9. Collier Constellation — 5 diamants sur chaîne -->
+<symbol id="j-constellation" viewBox="0 0 200 250">
+  <path d="M20 50 Q60 80 100 95 Q140 80 180 50" fill="none" stroke="url(#goldGrad)" stroke-width="1.6"/>
+  <g fill="url(#diamondGrad)" stroke="#8E6F3D" stroke-width="0.3">
+    <path d="M50 86 L46 80 L50 75 L54 80 Z"/>
+    <path d="M75 92 L70 84 L75 78 L80 84 Z"/>
+    <path d="M100 96 L94 86 L100 78 L106 86 Z" transform="scale(1.15)" transform-origin="100 90"/>
+    <path d="M125 92 L120 84 L125 78 L130 84 Z"/>
+    <path d="M150 86 L146 80 L150 75 L154 80 Z"/>
+  </g>
+  <g fill="#FFFFFF" opacity="0.55">
+    <circle cx="50" cy="80" r="0.8"/>
+    <circle cx="75" cy="84" r="0.8"/>
+    <circle cx="100" cy="86" r="0.8"/>
+    <circle cx="125" cy="84" r="0.8"/>
+    <circle cx="150" cy="80" r="0.8"/>
+  </g>
+</symbol>
+
+<!-- 10. Bracelet Trésor — maille épaisse -->
+<symbol id="j-tresor" viewBox="0 0 200 250">
+  <g transform="translate(100,125)">
+    <g fill="none" stroke="url(#goldGrad)" stroke-width="6">
+      <ellipse cx="-72" cy="0" rx="14" ry="12"/>
+      <ellipse cx="-48" cy="0" rx="14" ry="12"/>
+      <ellipse cx="-24" cy="0" rx="14" ry="12"/>
+      <ellipse cx="0" cy="0" rx="14" ry="12"/>
+      <ellipse cx="24" cy="0" rx="14" ry="12"/>
+      <ellipse cx="48" cy="0" rx="14" ry="12"/>
+      <ellipse cx="72" cy="0" rx="14" ry="12"/>
+    </g>
+    <g fill="none" stroke="#FFFFFF" stroke-width="0.6" opacity="0.3">
+      <ellipse cx="-72" cy="-2" rx="14" ry="12"/>
+      <ellipse cx="-48" cy="-2" rx="14" ry="12"/>
+      <ellipse cx="-24" cy="-2" rx="14" ry="12"/>
+      <ellipse cx="0" cy="-2" rx="14" ry="12"/>
+      <ellipse cx="24" cy="-2" rx="14" ry="12"/>
+      <ellipse cx="48" cy="-2" rx="14" ry="12"/>
+      <ellipse cx="72" cy="-2" rx="14" ry="12"/>
+    </g>
+  </g>
+</symbol>
+
+<!-- 11. Bague Velours — solitaire rubis -->
+<symbol id="j-velours" viewBox="0 0 200 250">
+  <g transform="translate(100,150)">
+    <ellipse cx="0" cy="0" rx="68" ry="66" fill="none" stroke="url(#goldGrad)" stroke-width="9"/>
+    <g transform="translate(0,-60)">
+      <path d="M-14 -10 L0 -24 L14 -10 L9 12 L-9 12 Z" fill="url(#rubyGrad)" stroke="#8E6F3D" stroke-width="0.5"/>
+      <path d="M0 -24 L-14 -10 M0 -24 L14 -10 M-9 12 L0 -24 L9 12" stroke="#FFFFFF" stroke-width="0.4" opacity="0.5" fill="none"/>
+      <path d="M-16 -12 L-16 -2 M16 -12 L16 -2 M-10 13 L-10 19 M10 13 L10 19" stroke="url(#goldGrad)" stroke-width="2" stroke-linecap="round"/>
+    </g>
+  </g>
+</symbol>
+
+<!-- 12. Collier Or pur — sautoir simple -->
+<symbol id="j-sautoir" viewBox="0 0 200 250">
+  <path d="M30 30 Q60 70 100 80 Q140 70 170 30" fill="none" stroke="url(#goldGrad)" stroke-width="2"/>
+  <path d="M100 80 L100 200" stroke="url(#goldGrad)" stroke-width="1.6" stroke-dasharray="2 2"/>
+  <circle cx="100" cy="208" r="6" fill="url(#goldGrad)" stroke="#8E6F3D" stroke-width="0.4"/>
+</symbol>
+</svg>
