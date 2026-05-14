@@ -1,0 +1,47 @@
+# Maison Aurélia
+
+> Joaillerie d'auteur premium basée à Montréal (Québec, Canada). Or 18K certifié RJC (recyclé à 100 %), pierres lab-grown certifiées IGI (diamants, émeraudes, rubis), pièces en série limitée (max 50 exemplaires). Atelier rue Saint-Paul Est, fait main, garantie à vie. Site démo Nextiweb illustrant les standards e-commerce 2026.
+
+Maison Aurélia est un site de démonstration conçu par [Nextiweb](https://nextiweb.ca), agence web canadienne, pour son portfolio de réalisations. Le site présente une boutique en ligne de joaillerie haut de gamme avec catalogue, panier fonctionnel, conformité Loi 25 (Québec), bilingue FR/EN. **Ce n'est pas un commerçant réel** — toutes les coordonnées sont fictives, le badge "DÉMO · Nextiweb.ca" est visible en permanence.
+
+## Boutique
+
+- [Collection complète (12 pièces)](https://maison-aurelia-demo.nextiweb.ca/collection.html) : catalogue filtrable par catégorie, tri par prix / nouveautés / note
+- [Bagues](https://maison-aurelia-demo.nextiweb.ca/collection.html?cat=bagues) : 4 modèles — Solis (signet onyx, 1 290 $), Aurore (solitaire diamant lab-grown, 2 450 $), Duo (deux ors entrelacés, 920 $), Velours (rubis lab-grown, 2 890 $)
+- [Colliers](https://maison-aurelia-demo.nextiweb.ca/collection.html?cat=colliers) : 4 modèles — Liane (perle eau douce, 890 $), Étoile (émeraude lab-grown, 1 150 $), Constellation (5 diamants, 1 680 $), Sautoir (chaîne fine 75 cm, 1 380 $)
+- [Boucles d'oreilles](https://maison-aurelia-demo.nextiweb.ca/collection.html?cat=boucles) : 2 modèles — Mirage (pendantes perlées, 650 $), Étincelle (créoles polies, 480 $)
+- [Bracelets](https://maison-aurelia-demo.nextiweb.ca/collection.html?cat=bracelets) : 2 modèles — Onde (jonc martelé main, 750 $), Trésor (maille forçat, 1 050 $)
+
+## La maison
+
+- [L'atelier — savoir-faire](https://maison-aurelia-demo.nextiweb.ca/histoire.html) : fondatrice Léa Aurélia Tremblay, atelier Vieux-Montréal depuis 2018, processus en 22 étapes (croquis, cire perdue, sertissage, finition), engagements éthiques
+- [Contact & rendez-vous](https://maison-aurelia-demo.nextiweb.ca/contact.html) : coordonnées atelier, formulaire de contact, FAQ (diamants lab-grown, délais, redimensionnement, livraison, garantie, or recyclé), sur-mesure
+
+## Conformité Loi 25 (Québec)
+
+- [Politique de confidentialité](https://maison-aurelia-demo.nextiweb.ca/confidentialite.html) : conforme intégralement à la Loi 25 — RPRP désigné, finalités, durées de conservation, transferts hors Québec documentés, droits d'accès / rectification / portabilité / oubli, gestion granulaire des témoins par catégorie
+- [Mentions légales & CGV](https://maison-aurelia-demo.nextiweb.ca/mentions-legales.html) : éditeur, hébergeur, conditions générales de vente (prix CAD HT, livraison Canada/USA, retours 30 jours, garantie à vie, juridiction Montréal)
+
+## Caractéristiques techniques
+
+- **Stack** : HTML5 + CSS pur + JavaScript vanilla, zéro dépendance build, parfait Hostinger
+- **Performance** : photos AVIF locales optimisées, lazy loading, sprite SVG, `prefers-reduced-motion`
+- **SEO** : Schema.org (JewelryStore, Product, BreadcrumbList, FAQPage, ContactPage, AboutPage), Open Graph, Twitter Cards, hreflang FR/EN, sitemap.xml, canonical
+- **Accessibilité** : skip-link, ARIA, focus visible, contraste AA, navigation clavier
+- **i18n** : bilingue français-canadien / anglais-canadien (toggle FR/EN dans le header)
+- **Mode** : sombre par défaut (charte quiet luxury 2026), bascule clair disponible
+- **Panier** : fonctionnel via localStorage, calcul TPS+TVQ Québec (14,975 %), livraison gratuite dès 250 $, code promo `AURELIA10`
+- **Témoins (cookies)** : 4 catégories (essentiels, préférences, statistiques, marketing), désactivés par défaut, consentement granulaire conforme art. 8.1 Loi 25
+
+## À propos de Nextiweb (agence créatrice)
+
+- [Nextiweb.ca](https://nextiweb.ca) : agence web canadienne, services de création de sites premium, SEO et marketing digital pour PME québécoises et canadiennes
+- [Création de site web](https://nextiweb.ca/creation-site.html) : conception sur mesure, design, développement, hébergement
+- [Référencement SEO](https://nextiweb.ca/seo.html) : audit technique, optimisation, contenu stratégique
+- [Marketing digital](https://nextiweb.ca/marketing-digital.html) : Google Ads, Meta Ads, infolettres, acquisition de clients
+- [Contact Nextiweb](https://nextiweb.ca/contact.html) : audit SEO gratuit, demande de devis
+
+## Optional
+
+- [GitHub du site](https://github.com/lassrikhadija/05-ecommerce) : code source de la démo, branche `main`
+- [Portfolio Nextiweb](https://nextiweb.ca) : autres sites démo (restaurant, clinique dentaire, spa/piscine, chocolaterie)

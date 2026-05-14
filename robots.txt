@@ -1,5 +1,106 @@
+# Maison Aurélia — robots.txt
+# Site démo Nextiweb · Conforme Loi 25 (Québec)
+# Dernière mise à jour : 2026-05-10
+
+# ============================================================
+# Règles générales (tous les robots)
+# ============================================================
 User-agent: *
 Allow: /
 Disallow: /panier.html
+Disallow: /*?lang=
+Disallow: /*?q=
 
+# ============================================================
+# Bots IA — autorisés à indexer pour la découverte produits
+# (visibilité accrue dans ChatGPT, Claude, Perplexity, etc.)
+# ============================================================
+
+# OpenAI (ChatGPT, recherche, entraînement)
+User-agent: GPTBot
+Allow: /
+Disallow: /panier.html
+
+User-agent: ChatGPT-User
+Allow: /
+Disallow: /panier.html
+
+User-agent: OAI-SearchBot
+Allow: /
+
+# Anthropic (Claude)
+User-agent: ClaudeBot
+Allow: /
+Disallow: /panier.html
+
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: Claude-Web
+Allow: /
+
+# Perplexity AI
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Perplexity-User
+Allow: /
+
+# Google Gemini (entraînement opt-in via Google-Extended)
+User-agent: Google-Extended
+Allow: /
+
+# Apple Intelligence
+User-agent: Applebot-Extended
+Allow: /
+
+# Mistral AI
+User-agent: MistralAI-User
+Allow: /
+
+# ============================================================
+# Bots IA bloqués (qualité douteuse / opt-out training)
+# ============================================================
+
+# ByteDance (TikTok)
+User-agent: Bytespider
+Disallow: /
+
+# Common Crawl (dataset d'entraînement public, opt-out par défaut)
+User-agent: CCBot
+Disallow: /
+
+# Amazon (entraînement modèles AWS)
+User-agent: Amazonbot
+Disallow: /
+
+# Meta (Llama)
+User-agent: Meta-ExternalAgent
+Disallow: /
+
+User-agent: FacebookBot
+Disallow: /
+
+# Cohere
+User-agent: cohere-ai
+Disallow: /
+
+# Diffbot
+User-agent: Diffbot
+Disallow: /
+
+# Omgili / Webz
+User-agent: omgili
+Disallow: /
+
+User-agent: omgilibot
+Disallow: /
+
+# ============================================================
+# Découverte structurée
+# ============================================================
 Sitemap: https://maison-aurelia-demo.nextiweb.ca/sitemap.xml
+
+# Fichier llms.txt (standard Jeremy Howard, sept. 2024)
+# Résumé Markdown structuré du site pour les LLMs
+# https://maison-aurelia-demo.nextiweb.ca/llms.txt
