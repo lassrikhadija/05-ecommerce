@@ -247,6 +247,137 @@
   }
   window.MA_RENDER = { card: productCardHTML };
 
+  // -------------------- Cookie banner — Loi 25 --------------------
+  // Catégories : essentiels (toujours actifs), préférences, statistiques, marketing
+  // Loi 25 art. 8.1 : désactivés par défaut, consentement explicite par finalité
+  function getConsent() {
+    try { return JSON.parse(localStorage.getItem('ma_consent') || 'null'); }
+    catch (e) { return null; }
+  }
+  function saveConsent(consent) {
+    localStorage.setItem('ma_consent', JSON.stringify({ ...consent, date: new Date().toISOString(), version: 1 }));
+    hideCookieBanner();
+    closeCookiePanel();
+  }
+  function buildCookieBanner() {
+    const banner = document.createElement('div');
+    banner.className = 'cookie-banner';
+    banner.setAttribute('role', 'dialog');
+    banner.setAttribute('aria-labelledby', 'cookie-title');
+    banner.setAttribute('aria-describedby', 'cookie-desc');
+    banner.innerHTML = `
+      <div class="cookie-banner__head">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M12 2l9 4v6c0 5-4 9-9 10-5-1-9-5-9-10V6l9-4z"/><path d="M9 12l2 2 4-4"/></svg>
+        <span id="cookie-title">Vos témoins, votre choix.</span>
+      </div>
+      <p id="cookie-desc">Nous utilisons des témoins (cookies) pour faire fonctionner le site, mémoriser vos préférences et — avec votre accord — mesurer son audience. Vous pouvez accepter, refuser, ou choisir par catégorie. Conforme <strong>Loi 25</strong> (Québec). <a href="confidentialite.html">En savoir plus</a></p>
+      <div class="cookie-banner__actions">
+        <button class="btn" data-cookie="accept-all">Tout accepter</button>
+        <button class="btn btn--ghost" data-cookie="reject-all">Tout refuser</button>
+        <a href="#" class="cookie-banner__customize" data-cookie="customize">Personnaliser</a>
+      </div>
+    `;
+    document.body.appendChild(banner);
+
+    const panel = document.createElement('div');
+    panel.className = 'cookie-panel';
+    panel.setAttribute('role', 'dialog');
+    panel.setAttribute('aria-modal', 'true');
+    panel.setAttribute('aria-labelledby', 'cookie-panel-title');
+    panel.innerHTML = `
+      <div class="cookie-panel__inner">
+        <h2 id="cookie-panel-title">Personnaliser <span class="italic" style="color:var(--gold)">vos témoins</span></h2>
+        <p>Conformément à la Loi 25 (Québec), nous activons uniquement les témoins essentiels par défaut. Cochez les autres catégories si vous y consentez.</p>
+
+        <div class="cookie-row">
+          <div class="cookie-row__main">
+            <div class="cookie-row__title">Essentiels <span style="color:var(--gold);font-size:11px;letter-spacing:0.1em;text-transform:uppercase;margin-left:0.5rem">Toujours actif</span></div>
+            <div class="cookie-row__desc">Nécessaires au fonctionnement du site : panier, langue, thème, sécurité. Aucune information personnelle transférée à un tiers.</div>
+          </div>
+          <label class="toggle"><input type="checkbox" checked disabled aria-label="Témoins essentiels"><span class="toggle__slider"></span></label>
+        </div>
+
+        <div class="cookie-row">
+          <div class="cookie-row__main">
+            <div class="cookie-row__title">Préférences</div>
+            <div class="cookie-row__desc">Mémorisent votre liste de favoris (wishlist) et vos choix d'options produit entre deux visites. Stockés sur votre appareil uniquement.</div>
+          </div>
+          <label class="toggle"><input type="checkbox" id="consent-pref" aria-label="Témoins préférences"><span class="toggle__slider"></span></label>
+        </div>
+
+        <div class="cookie-row">
+          <div class="cookie-row__main">
+            <div class="cookie-row__title">Statistiques</div>
+            <div class="cookie-row__desc">Mesure d'audience anonymisée (pages vues, durées). Aide Maison Aurélia à améliorer l'expérience. <strong>Aucun transfert hors Canada.</strong></div>
+          </div>
+          <label class="toggle"><input type="checkbox" id="consent-stats" aria-label="Témoins statistiques"><span class="toggle__slider"></span></label>
+        </div>
+
+        <div class="cookie-row">
+          <div class="cookie-row__main">
+            <div class="cookie-row__title">Marketing</div>
+            <div class="cookie-row__desc">Permet à Maison Aurélia de mesurer l'efficacité de ses campagnes (Google Ads, Meta Ads) et de vous reproposer des pièces vues. Peut impliquer un transfert hors Québec (USA), avec votre accord.</div>
+          </div>
+          <label class="toggle"><input type="checkbox" id="consent-marketing" aria-label="Témoins marketing"><span class="toggle__slider"></span></label>
+        </div>
+
+        <div class="cookie-panel__footer">
+          <button class="btn btn--ghost" data-cookie="save-custom">Enregistrer mes choix</button>
+          <button class="btn" data-cookie="accept-all">Tout accepter</button>
+        </div>
+      </div>
+    `;
+    document.body.appendChild(panel);
+
+    // Bindings
+    banner.querySelectorAll('[data-cookie]').forEach(b => {
+      b.addEventListener('click', e => {
+        e.preventDefault();
+        const action = b.dataset.cookie;
+        if (action === 'accept-all') saveConsent({ essential: true, preferences: true, statistics: true, marketing: true });
+        else if (action === 'reject-all') saveConsent({ essential: true, preferences: false, statistics: false, marketing: false });
+        else if (action === 'customize') openCookiePanel();
+      });
+    });
+    panel.querySelectorAll('[data-cookie]').forEach(b => {
+      b.addEventListener('click', e => {
+        e.preventDefault();
+        const action = b.dataset.cookie;
+        if (action === 'accept-all') saveConsent({ essential: true, preferences: true, statistics: true, marketing: true });
+        else if (action === 'save-custom') saveConsent({
+          essential: true,
+          preferences: document.getElementById('consent-pref').checked,
+          statistics: document.getElementById('consent-stats').checked,
+          marketing: document.getElementById('consent-marketing').checked
+        });
+      });
+    });
+    panel.addEventListener('click', e => { if (e.target === panel) closeCookiePanel(); });
+  }
+  function showCookieBanner() {
+    let b = document.querySelector('.cookie-banner');
+    if (!b) { buildCookieBanner(); b = document.querySelector('.cookie-banner'); }
+    setTimeout(() => b.classList.add('is-visible'), 600);
+  }
+  function hideCookieBanner() {
+    const b = document.querySelector('.cookie-banner');
+    if (b) b.classList.remove('is-visible');
+  }
+  function openCookiePanel() {
+    const p = document.querySelector('.cookie-panel');
+    if (p) p.classList.add('is-open');
+  }
+  function closeCookiePanel() {
+    const p = document.querySelector('.cookie-panel');
+    if (p) p.classList.remove('is-open');
+  }
+  // Lien "Gérer mes témoins" depuis footer / politique
+  window.MA_OPEN_COOKIES = function() {
+    if (!document.querySelector('.cookie-banner')) buildCookieBanner();
+    openCookiePanel();
+    return false;
+  };
+
   // -------------------- Init --------------------
   function init() {
     document.documentElement.lang = getLang();
@@ -276,6 +407,9 @@
         f.reset();
       });
     });
+
+    // Cookie banner — affiche si pas de consentement enregistré
+    if (!getConsent()) showCookieBanner();
 
     // Contact form
     document.querySelectorAll('form[data-contact]').forEach(f => {
