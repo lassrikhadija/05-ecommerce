@@ -99,8 +99,8 @@ Disallow: /
 # ============================================================
 # Découverte structurée
 # ============================================================
-Sitemap: https://maison-aurelia-demo.nextiweb.ca/sitemap.xml
+Sitemap: https://e-commerce.nextiwebstudio.ca/sitemap.xml
 
 # Fichier llms.txt (standard Jeremy Howard, sept. 2024)
 # Résumé Markdown structuré du site pour les LLMs
-# https://maison-aurelia-demo.nextiweb.ca/llms.txt
+# https://e-commerce.nextiwebstudio.ca/llms.txt

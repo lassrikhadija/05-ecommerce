@@ -6,7 +6,7 @@
 <meta name="theme-color" content="#0E0D0B">
 <title id="page-title">Bague Solis — Maison Aurélia</title>
 <meta name="description" id="page-desc" content="Bague signature en or 18K avec cabochon onyx. Fait main à Montréal. Édition limitée.">
-<link rel="canonical" href="https://maison-aurelia-demo.nextiweb.ca/produit.html" id="page-canonical">
+<link rel="canonical" href="https://e-commerce.nextiwebstudio.ca/produit.html" id="page-canonical">
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -303,7 +303,7 @@
 
     // Canonical
     const canonical = document.getElementById('page-canonical');
-    canonical.setAttribute('href', 'https://maison-aurelia-demo.nextiweb.ca/produit.html?id=' + product.id);
+    canonical.setAttribute('href', 'https://e-commerce.nextiwebstudio.ca/produit.html?id=' + product.id);
 
     // Related (3 same category, fallback to others)
     let related = MA_CATALOG.filter(p => p.category === product.category && p.id !== product.id).slice(0,3);
