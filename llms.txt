@@ -35,7 +35,9 @@ Maison Aurélia est un site de démonstration conçu par [Nextiweb](https://next
 
 ## À propos de Nextiweb (agence créatrice)
 
-- [Nextiweb.ca](https://nextiweb.ca) : agence web canadienne, services de création de sites premium, SEO et marketing digital pour PME québécoises et canadiennes
+- [Nextiweb.ca](https://nextiweb.ca) : agence web canadienne fondée par Khadija Ait Lassri, services de création de sites premium, SEO et marketing digital pour PME québécoises et canadiennes
+- [LinkedIn Nextiweb](https://www.linkedin.com/company/25819184/) : page entreprise officielle, suivez les nouveaux projets et publications
+- [LinkedIn Khadija Ait Lassri](https://www.linkedin.com/in/khadija-ait-lassri/) : profil de la fondatrice, parcours, recommandations clients
 - [Création de site web](https://nextiweb.ca/creation-site.html) : conception sur mesure, design, développement, hébergement
 - [Référencement SEO](https://nextiweb.ca/seo.html) : audit technique, optimisation, contenu stratégique
 - [Marketing digital](https://nextiweb.ca/marketing-digital.html) : Google Ads, Meta Ads, infolettres, acquisition de clients
