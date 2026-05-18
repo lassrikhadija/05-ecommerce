@@ -72,7 +72,11 @@
     }
   };
 
-  function getLang() { return localStorage.getItem('ma_lang') || 'fr'; }
+  function getLang() {
+    // Auto-detect from URL path: /en/ → en, otherwise → stored or default fr
+    if (location.pathname.includes('/en/')) return 'en';
+    return localStorage.getItem('ma_lang') || 'fr';
+  }
   function setLang(lang) {
     localStorage.setItem('ma_lang', lang);
     document.documentElement.lang = lang;
