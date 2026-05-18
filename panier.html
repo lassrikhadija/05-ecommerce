@@ -222,7 +222,7 @@
     const tax = +(discounted * 0.14975).toFixed(2);
     const total = discounted + shipping + tax;
     subEl.textContent = MA_FMT(subtotal) + (promoDiscount ? ' (−' + MA_FMT(promoDiscount) + ')' : '');
-    shipEl.innerHTML = shipping === 0 ? '<span style="color:var(--gold)">Offerte ✦</span>' : MA_FMT(shipping);
+    shipEl.innerHTML = shipping === 0 ? '<span style="color:var(--gold)">Offerte </span>' : MA_FMT(shipping);
     taxEl.textContent = MA_FMT(tax);
     totalEl.textContent = MA_FMT(total);
   }
@@ -235,7 +235,7 @@
     const subtotal = cart.reduce((s, it) => { const p = MA_CATALOG.find(x => x.id === it.id); return s + (p ? p.price * it.qty : 0); }, 0);
     if (code === 'AURELIA10') {
       promoDiscount = Math.round(subtotal * 0.10);
-      msg.innerHTML = '<span style="color:var(--gold)">✦ Code AURELIA10 appliqué — 10 % de remise</span>';
+      msg.innerHTML = '<span style="color:var(--gold)">Code AURELIA10 appliqué — 10 % de remise</span>';
     } else if (code) {
       promoDiscount = 0;
       msg.textContent = 'Code invalide. Astuce démo : essayez AURELIA10.';
@@ -245,7 +245,7 @@
 
   document.getElementById('btn-checkout').addEventListener('click', e => {
     e.preventDefault();
-    alert('✦ Démo Nextiweb — Sur un site en production, cette étape ouvrirait le tunnel de paiement (Stripe, Square ou Shop Pay) avec adresse de livraison, choix du transporteur et calcul réel des taxes provinciales.');
+    alert('Démo Nextiweb — Sur un site en production, cette étape ouvrirait le tunnel de paiement (Stripe, Square ou Shop Pay) avec adresse de livraison, choix du transporteur et calcul réel des taxes provinciales.');
   });
 
   document.addEventListener('cartchange', render);

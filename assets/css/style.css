@@ -459,9 +459,11 @@ h3 { font-size: var(--step-2); }
   gap: 4rem;
 }
 .marquee span::after {
-  content: "✦";
+  content: "·";
   color: var(--gold);
   font-style: normal;
+  font-size: 1.2em;
+  line-height: 1;
 }
 @keyframes marquee {
   to { transform: translateX(-50%); }

@@ -169,7 +169,7 @@
       toast = document.createElement('div');
       toast.className = 'toast';
       toast.setAttribute('role', 'status');
-      toast.innerHTML = `<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6L9 17l-5-5"/></svg><div><div class="toast__title">✦</div><div class="toast__text"></div></div>`;
+      toast.innerHTML = `<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6L9 17l-5-5"/></svg><div><div class="toast__title">·</div><div class="toast__text"></div></div>`;
       document.body.appendChild(toast);
     }
     toast.querySelector('.toast__text').textContent = text;
@@ -407,7 +407,7 @@
       f.addEventListener('submit', e => {
         e.preventDefault();
         const lang = getLang();
-        showToast(lang === 'fr' ? '✦ Merci. Bienvenue chez Aurélia.' : '✦ Thank you. Welcome to Aurélia.');
+        showToast(lang === 'fr' ? 'Merci. Bienvenue chez Aurélia.' : 'Thank you. Welcome to Aurélia.');
         f.reset();
       });
     });
@@ -421,8 +421,8 @@
         e.preventDefault();
         const lang = getLang();
         alert(lang === 'fr'
-          ? '✦ Démo Nextiweb — Votre message a bien été reçu. Sur un site en production, il serait envoyé à l\'équipe Maison Aurélia.'
-          : '✦ Nextiweb demo — Your message has been received. On a live site, it would be sent to the Maison Aurélia team.');
+          ? 'Démo Nextiweb — Votre message a bien été reçu. Sur un site en production, il serait envoyé à l\'équipe Maison Aurélia.'
+          : 'Nextiweb demo — Your message has been received. On a live site, it would be sent to the Maison Aurélia team.');
         f.reset();
       });
     });
