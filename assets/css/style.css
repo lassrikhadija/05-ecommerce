@@ -419,6 +419,7 @@ h3 { font-size: var(--step-2); }
   position: absolute;
   bottom: 2rem; left: var(--gutter); right: var(--gutter);
   display: flex; justify-content: space-between; align-items: flex-end;
+  flex-wrap: wrap; gap: 0.3rem 1.5rem;
   font-size: var(--step--1);
   color: var(--cream-dim);
   z-index: 3;

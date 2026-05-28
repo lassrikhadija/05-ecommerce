@@ -95,9 +95,6 @@
       const key = el.dataset.i18nAria;
       if (I18N[lang][key]) el.setAttribute('aria-label', I18N[lang][key]);
     });
-    document.querySelectorAll('.lang-switch button').forEach(btn => {
-      btn.setAttribute('aria-pressed', btn.dataset.lang === lang ? 'true' : 'false');
-    });
   }
 
   window.MA_LANG = { get: getLang, set: setLang, t };
@@ -390,11 +387,6 @@
     updateCartCount();
     initReveal();
     initMenu();
-
-    // Lang switch
-    document.querySelectorAll('.lang-switch button').forEach(btn => {
-      btn.addEventListener('click', () => setLang(btn.dataset.lang));
-    });
 
     // Theme toggle
     document.querySelectorAll('[data-theme-toggle]').forEach(btn => {
