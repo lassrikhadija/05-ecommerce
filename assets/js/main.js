@@ -227,7 +227,9 @@
     const lang = getLang();
     const badge = p.badge ? `<span class="product__badge ${p.id === 'aurore' || p.id === 'velours' ? 'product__badge--new' : ''}">${p.badge[lang]}</span>` : '';
     const isWish = getWishlist().includes(p.id);
-    const alt = `${p.name[lang]} — ${p.materials[lang]}`;
+    const alt = lang === 'fr'
+      ? `${p.name.fr} — ${p.materials.fr} — joaillerie Maison Aurélia Montréal`
+      : `${p.name.en} — ${p.materials.en} — Maison Aurélia jewellery Montreal`;
     return `
       <a href="produit.html?id=${p.id}" class="product" data-id="${p.id}">
         <div class="product__media">

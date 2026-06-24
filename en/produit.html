@@ -199,7 +199,7 @@
     const stars = document.getElementById('p-stars');
     stars.innerHTML = Array.from({length:5}).map(() => '<svg viewBox="0 0 24 24"><path d="M12 2l3 7h7l-5.5 4.5L18 22l-6-4-6 4 1.5-8.5L2 9h7z"/></svg>').join('');
 
-    const altText = product.name.en + ' — ' + product.materials.en;
+    const altText = product.name.en + ' — ' + product.materials.en + ' — Maison Aurélia jewellery Montreal';
     const main = document.getElementById('gallery-main');
     main.src = 'https://images.unsplash.com/photo-' + product.img + '?w=1200&h=1500&fit=crop&q=85&auto=format';
     main.srcset = 'https://images.unsplash.com/photo-' + product.img + '?w=800&h=1000&fit=crop&q=82&auto=format 800w, https://images.unsplash.com/photo-' + product.img + '?w=1200&h=1500&fit=crop&q=85&auto=format 1200w';
