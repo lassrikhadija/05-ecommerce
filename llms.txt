@@ -92,7 +92,7 @@ Cette démo a été conçue par **Nextiweb**, agence web canadienne fondée par 
 - [Nextiweb.ca](https://nextiweb.ca) : agence web canadienne — sites premium, SEO, marketing digital pour PME québécoises et canadiennes
 - [Référencement SEO](https://nextiweb.ca/seo.html) : audit technique, optimisation, contenu stratégique
 - [Marketing digital](https://nextiweb.ca/marketing-digital.html) : Google Ads, Meta Ads, infolettres, acquisition de clients
-- [Demander un audit gratuit](https://nextiweb.ca/contact.html) : formulaire de contact Nextiweb
+- [Demander un audit e-commerce gratuit](https://nextiweb.ca/e-commerce.html) : page de présentation et formulaire de contact Nextiweb
 - [LinkedIn Nextiweb](https://www.linkedin.com/company/nextiweb/) : page entreprise officielle
 - [LinkedIn Khadija Ait Lassri](https://www.linkedin.com/in/khadija-ait-lassri/) : profil de la fondatrice
 - [Code source GitHub](https://github.com/lassrikhadija/05-ecommerce) : repo public, branche `main`
