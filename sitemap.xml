@@ -3,85 +3,360 @@
         xmlns:xhtml="http://www.w3.org/1999/xhtml">
 
   <!-- ============================================================
-       FR pages (fr-CA primary)
+       FR pages (fr-CA primary) — Maison Aurélia · e-commerce.nextiwebstudio.ca
+       Généré le 2026-06-24
        ============================================================ -->
+
+  <!-- Accueil FR -->
   <url>
     <loc>https://e-commerce.nextiwebstudio.ca/</loc>
-    <lastmod>2026-05-15</lastmod>
+    <lastmod>2026-06-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
     <xhtml:link rel="alternate" hreflang="fr-CA" href="https://e-commerce.nextiwebstudio.ca/"/>
     <xhtml:link rel="alternate" hreflang="en-CA" href="https://e-commerce.nextiwebstudio.ca/en/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://e-commerce.nextiwebstudio.ca/"/>
   </url>
+
+  <!-- Collection FR -->
   <url>
-    <loc>https://e-commerce.nextiwebstudio.ca/collection.html</loc><lastmod>2026-05-15</lastmod><changefreq>weekly</changefreq><priority>0.9</priority>
+    <loc>https://e-commerce.nextiwebstudio.ca/collection.html</loc>
+    <lastmod>2026-06-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
     <xhtml:link rel="alternate" hreflang="fr-CA" href="https://e-commerce.nextiwebstudio.ca/collection.html"/>
     <xhtml:link rel="alternate" hreflang="en-CA" href="https://e-commerce.nextiwebstudio.ca/en/collection.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://e-commerce.nextiwebstudio.ca/collection.html"/>
   </url>
-  <url><loc>https://e-commerce.nextiwebstudio.ca/collection.html?cat=bagues</loc><priority>0.8</priority></url>
-  <url><loc>https://e-commerce.nextiwebstudio.ca/collection.html?cat=colliers</loc><priority>0.8</priority></url>
-  <url><loc>https://e-commerce.nextiwebstudio.ca/collection.html?cat=boucles</loc><priority>0.8</priority></url>
-  <url><loc>https://e-commerce.nextiwebstudio.ca/collection.html?cat=bracelets</loc><priority>0.8</priority></url>
-  <url><loc>https://e-commerce.nextiwebstudio.ca/produit.html?id=solis</loc><priority>0.7</priority>
+
+  <!-- Produits FR (12 pièces) -->
+  <url>
+    <loc>https://e-commerce.nextiwebstudio.ca/produit.html?id=solis</loc>
+    <lastmod>2026-06-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="fr-CA" href="https://e-commerce.nextiwebstudio.ca/produit.html?id=solis"/>
     <xhtml:link rel="alternate" hreflang="en-CA" href="https://e-commerce.nextiwebstudio.ca/en/produit.html?id=solis"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://e-commerce.nextiwebstudio.ca/produit.html?id=solis"/>
   </url>
-  <url><loc>https://e-commerce.nextiwebstudio.ca/produit.html?id=liane</loc><priority>0.7</priority></url>
-  <url><loc>https://e-commerce.nextiwebstudio.ca/produit.html?id=mirage</loc><priority>0.7</priority></url>
-  <url><loc>https://e-commerce.nextiwebstudio.ca/produit.html?id=onde</loc><priority>0.7</priority></url>
-  <url><loc>https://e-commerce.nextiwebstudio.ca/produit.html?id=aurore</loc><priority>0.7</priority></url>
-  <url><loc>https://e-commerce.nextiwebstudio.ca/produit.html?id=etoile</loc><priority>0.7</priority></url>
-  <url><loc>https://e-commerce.nextiwebstudio.ca/produit.html?id=etincelle</loc><priority>0.7</priority></url>
-  <url><loc>https://e-commerce.nextiwebstudio.ca/produit.html?id=duo</loc><priority>0.7</priority></url>
-  <url><loc>https://e-commerce.nextiwebstudio.ca/produit.html?id=constellation</loc><priority>0.7</priority></url>
-  <url><loc>https://e-commerce.nextiwebstudio.ca/produit.html?id=tresor</loc><priority>0.7</priority></url>
-  <url><loc>https://e-commerce.nextiwebstudio.ca/produit.html?id=velours</loc><priority>0.7</priority></url>
-  <url><loc>https://e-commerce.nextiwebstudio.ca/produit.html?id=sautoir</loc><priority>0.7</priority></url>
   <url>
-    <loc>https://e-commerce.nextiwebstudio.ca/histoire.html</loc><lastmod>2026-05-15</lastmod><priority>0.8</priority>
+    <loc>https://e-commerce.nextiwebstudio.ca/produit.html?id=aurore</loc>
+    <lastmod>2026-06-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="fr-CA" href="https://e-commerce.nextiwebstudio.ca/produit.html?id=aurore"/>
+    <xhtml:link rel="alternate" hreflang="en-CA" href="https://e-commerce.nextiwebstudio.ca/en/produit.html?id=aurore"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://e-commerce.nextiwebstudio.ca/produit.html?id=aurore"/>
+  </url>
+  <url>
+    <loc>https://e-commerce.nextiwebstudio.ca/produit.html?id=duo</loc>
+    <lastmod>2026-06-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="fr-CA" href="https://e-commerce.nextiwebstudio.ca/produit.html?id=duo"/>
+    <xhtml:link rel="alternate" hreflang="en-CA" href="https://e-commerce.nextiwebstudio.ca/en/produit.html?id=duo"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://e-commerce.nextiwebstudio.ca/produit.html?id=duo"/>
+  </url>
+  <url>
+    <loc>https://e-commerce.nextiwebstudio.ca/produit.html?id=velours</loc>
+    <lastmod>2026-06-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="fr-CA" href="https://e-commerce.nextiwebstudio.ca/produit.html?id=velours"/>
+    <xhtml:link rel="alternate" hreflang="en-CA" href="https://e-commerce.nextiwebstudio.ca/en/produit.html?id=velours"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://e-commerce.nextiwebstudio.ca/produit.html?id=velours"/>
+  </url>
+  <url>
+    <loc>https://e-commerce.nextiwebstudio.ca/produit.html?id=liane</loc>
+    <lastmod>2026-06-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="fr-CA" href="https://e-commerce.nextiwebstudio.ca/produit.html?id=liane"/>
+    <xhtml:link rel="alternate" hreflang="en-CA" href="https://e-commerce.nextiwebstudio.ca/en/produit.html?id=liane"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://e-commerce.nextiwebstudio.ca/produit.html?id=liane"/>
+  </url>
+  <url>
+    <loc>https://e-commerce.nextiwebstudio.ca/produit.html?id=etoile</loc>
+    <lastmod>2026-06-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="fr-CA" href="https://e-commerce.nextiwebstudio.ca/produit.html?id=etoile"/>
+    <xhtml:link rel="alternate" hreflang="en-CA" href="https://e-commerce.nextiwebstudio.ca/en/produit.html?id=etoile"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://e-commerce.nextiwebstudio.ca/produit.html?id=etoile"/>
+  </url>
+  <url>
+    <loc>https://e-commerce.nextiwebstudio.ca/produit.html?id=constellation</loc>
+    <lastmod>2026-06-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="fr-CA" href="https://e-commerce.nextiwebstudio.ca/produit.html?id=constellation"/>
+    <xhtml:link rel="alternate" hreflang="en-CA" href="https://e-commerce.nextiwebstudio.ca/en/produit.html?id=constellation"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://e-commerce.nextiwebstudio.ca/produit.html?id=constellation"/>
+  </url>
+  <url>
+    <loc>https://e-commerce.nextiwebstudio.ca/produit.html?id=sautoir</loc>
+    <lastmod>2026-06-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="fr-CA" href="https://e-commerce.nextiwebstudio.ca/produit.html?id=sautoir"/>
+    <xhtml:link rel="alternate" hreflang="en-CA" href="https://e-commerce.nextiwebstudio.ca/en/produit.html?id=sautoir"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://e-commerce.nextiwebstudio.ca/produit.html?id=sautoir"/>
+  </url>
+  <url>
+    <loc>https://e-commerce.nextiwebstudio.ca/produit.html?id=mirage</loc>
+    <lastmod>2026-06-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="fr-CA" href="https://e-commerce.nextiwebstudio.ca/produit.html?id=mirage"/>
+    <xhtml:link rel="alternate" hreflang="en-CA" href="https://e-commerce.nextiwebstudio.ca/en/produit.html?id=mirage"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://e-commerce.nextiwebstudio.ca/produit.html?id=mirage"/>
+  </url>
+  <url>
+    <loc>https://e-commerce.nextiwebstudio.ca/produit.html?id=etincelle</loc>
+    <lastmod>2026-06-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="fr-CA" href="https://e-commerce.nextiwebstudio.ca/produit.html?id=etincelle"/>
+    <xhtml:link rel="alternate" hreflang="en-CA" href="https://e-commerce.nextiwebstudio.ca/en/produit.html?id=etincelle"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://e-commerce.nextiwebstudio.ca/produit.html?id=etincelle"/>
+  </url>
+  <url>
+    <loc>https://e-commerce.nextiwebstudio.ca/produit.html?id=onde</loc>
+    <lastmod>2026-06-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="fr-CA" href="https://e-commerce.nextiwebstudio.ca/produit.html?id=onde"/>
+    <xhtml:link rel="alternate" hreflang="en-CA" href="https://e-commerce.nextiwebstudio.ca/en/produit.html?id=onde"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://e-commerce.nextiwebstudio.ca/produit.html?id=onde"/>
+  </url>
+  <url>
+    <loc>https://e-commerce.nextiwebstudio.ca/produit.html?id=tresor</loc>
+    <lastmod>2026-06-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="fr-CA" href="https://e-commerce.nextiwebstudio.ca/produit.html?id=tresor"/>
+    <xhtml:link rel="alternate" hreflang="en-CA" href="https://e-commerce.nextiwebstudio.ca/en/produit.html?id=tresor"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://e-commerce.nextiwebstudio.ca/produit.html?id=tresor"/>
+  </url>
+
+  <!-- L'atelier FR -->
+  <url>
+    <loc>https://e-commerce.nextiwebstudio.ca/histoire.html</loc>
+    <lastmod>2026-06-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="fr-CA" href="https://e-commerce.nextiwebstudio.ca/histoire.html"/>
     <xhtml:link rel="alternate" hreflang="en-CA" href="https://e-commerce.nextiwebstudio.ca/en/atelier.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://e-commerce.nextiwebstudio.ca/histoire.html"/>
   </url>
+
+  <!-- Contact FR -->
   <url>
-    <loc>https://e-commerce.nextiwebstudio.ca/contact.html</loc><lastmod>2026-05-15</lastmod><priority>0.7</priority>
+    <loc>https://e-commerce.nextiwebstudio.ca/contact.html</loc>
+    <lastmod>2026-06-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="fr-CA" href="https://e-commerce.nextiwebstudio.ca/contact.html"/>
     <xhtml:link rel="alternate" hreflang="en-CA" href="https://e-commerce.nextiwebstudio.ca/en/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://e-commerce.nextiwebstudio.ca/contact.html"/>
   </url>
+
+  <!-- Légales FR -->
   <url>
-    <loc>https://e-commerce.nextiwebstudio.ca/confidentialite.html</loc><lastmod>2026-05-15</lastmod><priority>0.4</priority>
+    <loc>https://e-commerce.nextiwebstudio.ca/confidentialite.html</loc>
+    <lastmod>2026-06-24</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.4</priority>
     <xhtml:link rel="alternate" hreflang="fr-CA" href="https://e-commerce.nextiwebstudio.ca/confidentialite.html"/>
     <xhtml:link rel="alternate" hreflang="en-CA" href="https://e-commerce.nextiwebstudio.ca/en/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://e-commerce.nextiwebstudio.ca/confidentialite.html"/>
   </url>
   <url>
-    <loc>https://e-commerce.nextiwebstudio.ca/mentions-legales.html</loc><lastmod>2026-05-15</lastmod><priority>0.4</priority>
+    <loc>https://e-commerce.nextiwebstudio.ca/mentions-legales.html</loc>
+    <lastmod>2026-06-24</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.4</priority>
     <xhtml:link rel="alternate" hreflang="fr-CA" href="https://e-commerce.nextiwebstudio.ca/mentions-legales.html"/>
     <xhtml:link rel="alternate" hreflang="en-CA" href="https://e-commerce.nextiwebstudio.ca/en/terms.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://e-commerce.nextiwebstudio.ca/mentions-legales.html"/>
   </url>
 
   <!-- ============================================================
        EN pages (en-CA)
        ============================================================ -->
+
+  <!-- Accueil EN -->
   <url>
-    <loc>https://e-commerce.nextiwebstudio.ca/en/</loc><lastmod>2026-05-15</lastmod><changefreq>weekly</changefreq><priority>0.95</priority>
+    <loc>https://e-commerce.nextiwebstudio.ca/en/</loc>
+    <lastmod>2026-06-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.95</priority>
     <xhtml:link rel="alternate" hreflang="fr-CA" href="https://e-commerce.nextiwebstudio.ca/"/>
     <xhtml:link rel="alternate" hreflang="en-CA" href="https://e-commerce.nextiwebstudio.ca/en/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://e-commerce.nextiwebstudio.ca/"/>
   </url>
-  <url><loc>https://e-commerce.nextiwebstudio.ca/en/collection.html</loc><lastmod>2026-05-15</lastmod><priority>0.85</priority></url>
-  <url><loc>https://e-commerce.nextiwebstudio.ca/en/produit.html?id=solis</loc><priority>0.65</priority></url>
-  <url><loc>https://e-commerce.nextiwebstudio.ca/en/produit.html?id=liane</loc><priority>0.65</priority></url>
-  <url><loc>https://e-commerce.nextiwebstudio.ca/en/produit.html?id=mirage</loc><priority>0.65</priority></url>
-  <url><loc>https://e-commerce.nextiwebstudio.ca/en/produit.html?id=onde</loc><priority>0.65</priority></url>
-  <url><loc>https://e-commerce.nextiwebstudio.ca/en/produit.html?id=aurore</loc><priority>0.65</priority></url>
-  <url><loc>https://e-commerce.nextiwebstudio.ca/en/produit.html?id=etoile</loc><priority>0.65</priority></url>
-  <url><loc>https://e-commerce.nextiwebstudio.ca/en/produit.html?id=etincelle</loc><priority>0.65</priority></url>
-  <url><loc>https://e-commerce.nextiwebstudio.ca/en/produit.html?id=duo</loc><priority>0.65</priority></url>
-  <url><loc>https://e-commerce.nextiwebstudio.ca/en/produit.html?id=constellation</loc><priority>0.65</priority></url>
-  <url><loc>https://e-commerce.nextiwebstudio.ca/en/produit.html?id=tresor</loc><priority>0.65</priority></url>
-  <url><loc>https://e-commerce.nextiwebstudio.ca/en/produit.html?id=velours</loc><priority>0.65</priority></url>
-  <url><loc>https://e-commerce.nextiwebstudio.ca/en/produit.html?id=sautoir</loc><priority>0.65</priority></url>
-  <url><loc>https://e-commerce.nextiwebstudio.ca/en/atelier.html</loc><lastmod>2026-05-15</lastmod><priority>0.75</priority></url>
-  <url><loc>https://e-commerce.nextiwebstudio.ca/en/contact.html</loc><lastmod>2026-05-15</lastmod><priority>0.65</priority></url>
-  <url><loc>https://e-commerce.nextiwebstudio.ca/en/privacy.html</loc><lastmod>2026-05-15</lastmod><priority>0.35</priority></url>
-  <url><loc>https://e-commerce.nextiwebstudio.ca/en/terms.html</loc><lastmod>2026-05-15</lastmod><priority>0.35</priority></url>
+
+  <!-- Collection EN -->
+  <url>
+    <loc>https://e-commerce.nextiwebstudio.ca/en/collection.html</loc>
+    <lastmod>2026-06-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+    <xhtml:link rel="alternate" hreflang="fr-CA" href="https://e-commerce.nextiwebstudio.ca/collection.html"/>
+    <xhtml:link rel="alternate" hreflang="en-CA" href="https://e-commerce.nextiwebstudio.ca/en/collection.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://e-commerce.nextiwebstudio.ca/collection.html"/>
+  </url>
+
+  <!-- Produits EN (12 pièces) -->
+  <url>
+    <loc>https://e-commerce.nextiwebstudio.ca/en/produit.html?id=solis</loc>
+    <lastmod>2026-06-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.65</priority>
+    <xhtml:link rel="alternate" hreflang="fr-CA" href="https://e-commerce.nextiwebstudio.ca/produit.html?id=solis"/>
+    <xhtml:link rel="alternate" hreflang="en-CA" href="https://e-commerce.nextiwebstudio.ca/en/produit.html?id=solis"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://e-commerce.nextiwebstudio.ca/produit.html?id=solis"/>
+  </url>
+  <url>
+    <loc>https://e-commerce.nextiwebstudio.ca/en/produit.html?id=aurore</loc>
+    <lastmod>2026-06-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.65</priority>
+    <xhtml:link rel="alternate" hreflang="fr-CA" href="https://e-commerce.nextiwebstudio.ca/produit.html?id=aurore"/>
+    <xhtml:link rel="alternate" hreflang="en-CA" href="https://e-commerce.nextiwebstudio.ca/en/produit.html?id=aurore"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://e-commerce.nextiwebstudio.ca/produit.html?id=aurore"/>
+  </url>
+  <url>
+    <loc>https://e-commerce.nextiwebstudio.ca/en/produit.html?id=duo</loc>
+    <lastmod>2026-06-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.65</priority>
+    <xhtml:link rel="alternate" hreflang="fr-CA" href="https://e-commerce.nextiwebstudio.ca/produit.html?id=duo"/>
+    <xhtml:link rel="alternate" hreflang="en-CA" href="https://e-commerce.nextiwebstudio.ca/en/produit.html?id=duo"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://e-commerce.nextiwebstudio.ca/produit.html?id=duo"/>
+  </url>
+  <url>
+    <loc>https://e-commerce.nextiwebstudio.ca/en/produit.html?id=velours</loc>
+    <lastmod>2026-06-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.65</priority>
+    <xhtml:link rel="alternate" hreflang="fr-CA" href="https://e-commerce.nextiwebstudio.ca/produit.html?id=velours"/>
+    <xhtml:link rel="alternate" hreflang="en-CA" href="https://e-commerce.nextiwebstudio.ca/en/produit.html?id=velours"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://e-commerce.nextiwebstudio.ca/produit.html?id=velours"/>
+  </url>
+  <url>
+    <loc>https://e-commerce.nextiwebstudio.ca/en/produit.html?id=liane</loc>
+    <lastmod>2026-06-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.65</priority>
+    <xhtml:link rel="alternate" hreflang="fr-CA" href="https://e-commerce.nextiwebstudio.ca/produit.html?id=liane"/>
+    <xhtml:link rel="alternate" hreflang="en-CA" href="https://e-commerce.nextiwebstudio.ca/en/produit.html?id=liane"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://e-commerce.nextiwebstudio.ca/produit.html?id=liane"/>
+  </url>
+  <url>
+    <loc>https://e-commerce.nextiwebstudio.ca/en/produit.html?id=etoile</loc>
+    <lastmod>2026-06-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.65</priority>
+    <xhtml:link rel="alternate" hreflang="fr-CA" href="https://e-commerce.nextiwebstudio.ca/produit.html?id=etoile"/>
+    <xhtml:link rel="alternate" hreflang="en-CA" href="https://e-commerce.nextiwebstudio.ca/en/produit.html?id=etoile"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://e-commerce.nextiwebstudio.ca/produit.html?id=etoile"/>
+  </url>
+  <url>
+    <loc>https://e-commerce.nextiwebstudio.ca/en/produit.html?id=constellation</loc>
+    <lastmod>2026-06-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.65</priority>
+    <xhtml:link rel="alternate" hreflang="fr-CA" href="https://e-commerce.nextiwebstudio.ca/produit.html?id=constellation"/>
+    <xhtml:link rel="alternate" hreflang="en-CA" href="https://e-commerce.nextiwebstudio.ca/en/produit.html?id=constellation"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://e-commerce.nextiwebstudio.ca/produit.html?id=constellation"/>
+  </url>
+  <url>
+    <loc>https://e-commerce.nextiwebstudio.ca/en/produit.html?id=sautoir</loc>
+    <lastmod>2026-06-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.65</priority>
+    <xhtml:link rel="alternate" hreflang="fr-CA" href="https://e-commerce.nextiwebstudio.ca/produit.html?id=sautoir"/>
+    <xhtml:link rel="alternate" hreflang="en-CA" href="https://e-commerce.nextiwebstudio.ca/en/produit.html?id=sautoir"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://e-commerce.nextiwebstudio.ca/produit.html?id=sautoir"/>
+  </url>
+  <url>
+    <loc>https://e-commerce.nextiwebstudio.ca/en/produit.html?id=mirage</loc>
+    <lastmod>2026-06-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.65</priority>
+    <xhtml:link rel="alternate" hreflang="fr-CA" href="https://e-commerce.nextiwebstudio.ca/produit.html?id=mirage"/>
+    <xhtml:link rel="alternate" hreflang="en-CA" href="https://e-commerce.nextiwebstudio.ca/en/produit.html?id=mirage"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://e-commerce.nextiwebstudio.ca/produit.html?id=mirage"/>
+  </url>
+  <url>
+    <loc>https://e-commerce.nextiwebstudio.ca/en/produit.html?id=etincelle</loc>
+    <lastmod>2026-06-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.65</priority>
+    <xhtml:link rel="alternate" hreflang="fr-CA" href="https://e-commerce.nextiwebstudio.ca/produit.html?id=etincelle"/>
+    <xhtml:link rel="alternate" hreflang="en-CA" href="https://e-commerce.nextiwebstudio.ca/en/produit.html?id=etincelle"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://e-commerce.nextiwebstudio.ca/produit.html?id=etincelle"/>
+  </url>
+  <url>
+    <loc>https://e-commerce.nextiwebstudio.ca/en/produit.html?id=onde</loc>
+    <lastmod>2026-06-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.65</priority>
+    <xhtml:link rel="alternate" hreflang="fr-CA" href="https://e-commerce.nextiwebstudio.ca/produit.html?id=onde"/>
+    <xhtml:link rel="alternate" hreflang="en-CA" href="https://e-commerce.nextiwebstudio.ca/en/produit.html?id=onde"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://e-commerce.nextiwebstudio.ca/produit.html?id=onde"/>
+  </url>
+  <url>
+    <loc>https://e-commerce.nextiwebstudio.ca/en/produit.html?id=tresor</loc>
+    <lastmod>2026-06-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.65</priority>
+    <xhtml:link rel="alternate" hreflang="fr-CA" href="https://e-commerce.nextiwebstudio.ca/produit.html?id=tresor"/>
+    <xhtml:link rel="alternate" hreflang="en-CA" href="https://e-commerce.nextiwebstudio.ca/en/produit.html?id=tresor"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://e-commerce.nextiwebstudio.ca/produit.html?id=tresor"/>
+  </url>
+
+  <!-- L'atelier EN -->
+  <url>
+    <loc>https://e-commerce.nextiwebstudio.ca/en/atelier.html</loc>
+    <lastmod>2026-06-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+    <xhtml:link rel="alternate" hreflang="fr-CA" href="https://e-commerce.nextiwebstudio.ca/histoire.html"/>
+    <xhtml:link rel="alternate" hreflang="en-CA" href="https://e-commerce.nextiwebstudio.ca/en/atelier.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://e-commerce.nextiwebstudio.ca/histoire.html"/>
+  </url>
+
+  <!-- Contact EN -->
+  <url>
+    <loc>https://e-commerce.nextiwebstudio.ca/en/contact.html</loc>
+    <lastmod>2026-06-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.65</priority>
+    <xhtml:link rel="alternate" hreflang="fr-CA" href="https://e-commerce.nextiwebstudio.ca/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="en-CA" href="https://e-commerce.nextiwebstudio.ca/en/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://e-commerce.nextiwebstudio.ca/contact.html"/>
+  </url>
+
+  <!-- Légales EN -->
+  <url>
+    <loc>https://e-commerce.nextiwebstudio.ca/en/privacy.html</loc>
+    <lastmod>2026-06-24</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.35</priority>
+    <xhtml:link rel="alternate" hreflang="fr-CA" href="https://e-commerce.nextiwebstudio.ca/confidentialite.html"/>
+    <xhtml:link rel="alternate" hreflang="en-CA" href="https://e-commerce.nextiwebstudio.ca/en/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://e-commerce.nextiwebstudio.ca/confidentialite.html"/>
+  </url>
+  <url>
+    <loc>https://e-commerce.nextiwebstudio.ca/en/terms.html</loc>
+    <lastmod>2026-06-24</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.35</priority>
+    <xhtml:link rel="alternate" hreflang="fr-CA" href="https://e-commerce.nextiwebstudio.ca/mentions-legales.html"/>
+    <xhtml:link rel="alternate" hreflang="en-CA" href="https://e-commerce.nextiwebstudio.ca/en/terms.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://e-commerce.nextiwebstudio.ca/mentions-legales.html"/>
+  </url>
+
 </urlset>

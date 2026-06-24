@@ -1,49 +1,98 @@
-# Maison Aurélia
+# Maison Aurélia — Boutique de joaillerie d'auteur (démo e-commerce)
 
-> Joaillerie d'auteur premium basée à Montréal (Québec, Canada). Or 18K certifié RJC (recyclé à 100 %), pierres lab-grown certifiées IGI (diamants, émeraudes, rubis), pièces en série limitée (max 50 exemplaires). Atelier rue Saint-Paul Est, fait main, garantie à vie. Site démo Nextiweb illustrant les standards e-commerce 2026.
+> **FR** — Joaillerie d'auteur premium basée à Montréal (Québec, Canada). Or 18K certifié RJC (recyclé à 100 %), pierres lab-grown certifiées IGI (diamants, émeraudes, rubis), pièces en série limitée (max 50 exemplaires). Atelier rue Saint-Paul Est, fait main, garantie à vie.
+>
+> **EN** — Premium author jewellery based in Montréal (Québec, Canada). RJC-certified 18K recycled gold, IGI-certified lab-grown gems (diamonds, emeralds, rubies), limited series (max 50 pieces per design). Old Montréal workshop, handmade, lifetime warranty.
 
-Maison Aurélia est un site de démonstration conçu par [Nextiweb](https://nextiweb.ca), agence web canadienne, pour son portfolio de réalisations. Le site présente une boutique en ligne de joaillerie haut de gamme avec catalogue, panier fonctionnel, conformité Loi 25 (Québec), bilingue FR/EN. **Ce n'est pas un commerçant réel** — toutes les coordonnées sont fictives, le badge "DÉMO · Nextiweb.ca" est visible en permanence.
+**Statut :** Site de démonstration conçu par [Nextiweb](https://nextiweb.ca/e-commerce.html), agence web canadienne — ce n'est pas un commerçant réel. Le badge « DÉMO · Nextiweb.ca » est visible en permanence sur toutes les pages.
 
-## Boutique
+**Last updated :** 2026-06-24
 
-- [Collection complète (12 pièces)](https://e-commerce.nextiwebstudio.ca/collection.html) : catalogue filtrable par catégorie, tri par prix / nouveautés / note
-- [Bagues](https://e-commerce.nextiwebstudio.ca/collection.html?cat=bagues) : 4 modèles — Solis (signet onyx, 1 290 $), Aurore (solitaire diamant lab-grown, 2 450 $), Duo (deux ors entrelacés, 920 $), Velours (rubis lab-grown, 2 890 $)
-- [Colliers](https://e-commerce.nextiwebstudio.ca/collection.html?cat=colliers) : 4 modèles — Liane (perle eau douce, 890 $), Étoile (émeraude lab-grown, 1 150 $), Constellation (5 diamants, 1 680 $), Sautoir (chaîne fine 75 cm, 1 380 $)
-- [Boucles d'oreilles](https://e-commerce.nextiwebstudio.ca/collection.html?cat=boucles) : 2 modèles — Mirage (pendantes perlées, 650 $), Étincelle (créoles polies, 480 $)
-- [Bracelets](https://e-commerce.nextiwebstudio.ca/collection.html?cat=bracelets) : 2 modèles — Onde (jonc martelé main, 750 $), Trésor (maille forçat, 1 050 $)
+---
 
-## La maison
+## Boutique / Shop
 
-- [L'atelier — savoir-faire](https://e-commerce.nextiwebstudio.ca/histoire.html) : fondatrice Léa Aurélia Tremblay, atelier Vieux-Montréal depuis 2018, processus en 22 étapes (croquis, cire perdue, sertissage, finition), engagements éthiques
-- [Contact & rendez-vous](https://e-commerce.nextiwebstudio.ca/contact.html) : coordonnées atelier, formulaire de contact, FAQ (diamants lab-grown, délais, redimensionnement, livraison, garantie, or recyclé), sur-mesure
+### FR — Collection
 
-## Conformité Loi 25 (Québec)
+- [Accueil](https://e-commerce.nextiwebstudio.ca/) : présentation de la maison, pièces vedettes, valeurs éthiques
+- [Collection complète — 12 pièces](https://e-commerce.nextiwebstudio.ca/collection.html) : catalogue filtrable par catégorie (bagues / colliers / boucles / bracelets), tri par prix, note, nouveautés
 
-- [Politique de confidentialité](https://e-commerce.nextiwebstudio.ca/confidentialite.html) : conforme intégralement à la Loi 25 — RPRP désigné, finalités, durées de conservation, transferts hors Québec documentés, droits d'accès / rectification / portabilité / oubli, gestion granulaire des témoins par catégorie
-- [Mentions légales & CGV](https://e-commerce.nextiwebstudio.ca/mentions-legales.html) : éditeur, hébergeur, conditions générales de vente (prix CAD HT, livraison Canada/USA, retours 30 jours, garantie à vie, juridiction Montréal)
+#### Bagues (4 modèles)
 
-## Caractéristiques techniques
+- [Bague Solis](https://e-commerce.nextiwebstudio.ca/produit.html?id=solis) — signet onyx noir, or 18K poli — 1 290 $ CAD — Édition limitée
+- [Bague Aurore](https://e-commerce.nextiwebstudio.ca/produit.html?id=aurore) — solitaire diamant lab-grown 0,5ct IGI, or 18K — 2 450 $ CAD — Nouveau
+- [Bague Duo](https://e-commerce.nextiwebstudio.ca/produit.html?id=duo) — deux anneaux entrelacés or jaune + or rose 18K — 920 $ CAD
+- [Bague Velours](https://e-commerce.nextiwebstudio.ca/produit.html?id=velours) — rubis lab-grown certifié IGI, or 18K — 2 890 $ CAD — Nouveau
 
-- **Stack** : HTML5 + CSS pur + JavaScript vanilla, zéro dépendance build, parfait Hostinger
-- **Performance** : photos AVIF locales optimisées, lazy loading, sprite SVG, `prefers-reduced-motion`
-- **SEO** : Schema.org (JewelryStore, Product, BreadcrumbList, FAQPage, ContactPage, AboutPage), Open Graph, Twitter Cards, hreflang FR/EN, sitemap.xml, canonical
-- **Accessibilité** : skip-link, ARIA, focus visible, contraste AA, navigation clavier
-- **i18n** : bilingue français-canadien / anglais-canadien (toggle FR/EN dans le header)
+#### Colliers & Pendentifs (4 modèles)
+
+- [Collier Liane](https://e-commerce.nextiwebstudio.ca/produit.html?id=liane) — chaîne ondulée, perle d'eau douce, or 18K — 890 $ CAD
+- [Pendentif Étoile](https://e-commerce.nextiwebstudio.ca/produit.html?id=etoile) — médaillon étoilé, émeraude lab-grown IGI, or 18K — 1 150 $ CAD
+- [Collier Constellation](https://e-commerce.nextiwebstudio.ca/produit.html?id=constellation) — 5 diamants lab-grown IGI en constellation, or 18K — 1 680 $ CAD — Édition limitée
+- [Sautoir Aurélia](https://e-commerce.nextiwebstudio.ca/produit.html?id=sautoir) — chaîne fine 75 cm, or massif 18K — 1 380 $ CAD
+
+#### Boucles d'oreilles (2 modèles)
+
+- [Boucles Mirage](https://e-commerce.nextiwebstudio.ca/produit.html?id=mirage) — pendantes crescent, perles, or 18K — 650 $ CAD (ancien prix 780 $) — Best-seller
+- [Boucles Étincelle](https://e-commerce.nextiwebstudio.ca/produit.html?id=etincelle) — créoles polies miroir, or 18K — 480 $ CAD
+
+#### Bracelets (2 modèles)
+
+- [Bracelet Onde](https://e-commerce.nextiwebstudio.ca/produit.html?id=onde) — jonc martelé main, or 18K — 750 $ CAD
+- [Bracelet Trésor](https://e-commerce.nextiwebstudio.ca/produit.html?id=tresor) — maille forçat épaisse, or 18K — 1 050 $ CAD
+
+### EN — Collection
+
+- [Homepage](https://e-commerce.nextiwebstudio.ca/en/) : house introduction, featured pieces, ethical values
+- [Full collection — 12 pieces](https://e-commerce.nextiwebstudio.ca/en/collection.html) : filterable catalogue (rings / necklaces / earrings / bracelets)
+- [Solis Ring](https://e-commerce.nextiwebstudio.ca/en/produit.html?id=solis) · [Aurore Ring](https://e-commerce.nextiwebstudio.ca/en/produit.html?id=aurore) · [Duo Ring](https://e-commerce.nextiwebstudio.ca/en/produit.html?id=duo) · [Velours Ring](https://e-commerce.nextiwebstudio.ca/en/produit.html?id=velours)
+- [Liane Necklace](https://e-commerce.nextiwebstudio.ca/en/produit.html?id=liane) · [Étoile Pendant](https://e-commerce.nextiwebstudio.ca/en/produit.html?id=etoile) · [Constellation Necklace](https://e-commerce.nextiwebstudio.ca/en/produit.html?id=constellation) · [Aurélia Sautoir](https://e-commerce.nextiwebstudio.ca/en/produit.html?id=sautoir)
+- [Mirage Earrings](https://e-commerce.nextiwebstudio.ca/en/produit.html?id=mirage) · [Étincelle Hoops](https://e-commerce.nextiwebstudio.ca/en/produit.html?id=etincelle)
+- [Onde Bracelet](https://e-commerce.nextiwebstudio.ca/en/produit.html?id=onde) · [Trésor Bracelet](https://e-commerce.nextiwebstudio.ca/en/produit.html?id=tresor)
+
+---
+
+## La maison / The House
+
+- [L'atelier — savoir-faire (FR)](https://e-commerce.nextiwebstudio.ca/histoire.html) : fondatrice Léa Aurélia Tremblay, atelier Vieux-Montréal depuis 2018, processus en 22 étapes (croquis, cire perdue, sertissage, finition), engagements éthiques
+- [The Atelier — craftsmanship (EN)](https://e-commerce.nextiwebstudio.ca/en/atelier.html) : founder story, 22-step process, ethical commitments
+- [Contact & rendez-vous (FR)](https://e-commerce.nextiwebstudio.ca/contact.html) : coordonnées atelier, formulaire, FAQ sur mesure, diamants lab-grown, délais, livraison
+- [Contact & appointments (EN)](https://e-commerce.nextiwebstudio.ca/en/contact.html) : atelier address, contact form, bespoke FAQ
+
+---
+
+## Conformité légale / Legal
+
+- [Politique de confidentialité — Loi 25 (FR)](https://e-commerce.nextiwebstudio.ca/confidentialite.html) : conforme Loi 25 Québec — RPRP désigné, finalités, durées, droits d'accès / rectification / oubli, consentement granulaire
+- [Privacy Policy — Law 25 (EN)](https://e-commerce.nextiwebstudio.ca/en/privacy.html) : Law 25 Québec compliance, designated PPO, data rights
+- [Mentions légales & CGV (FR)](https://e-commerce.nextiwebstudio.ca/mentions-legales.html) : éditeur, hébergeur, CGV, retours 30 jours, garantie à vie, juridiction Montréal
+- [Legal & Terms (EN)](https://e-commerce.nextiwebstudio.ca/en/terms.html) : publisher, hosting, T&Cs, returns policy, jurisdiction
+
+---
+
+## Caractéristiques techniques / Technical specs
+
+- **Stack** : HTML5 + CSS pur + JavaScript vanilla — zéro dépendance build, parfait pour Hostinger / GitHub Pages
+- **Performance** : images AVIF locales optimisées, lazy loading natif, sprite SVG, `prefers-reduced-motion`
+- **SEO** : Schema.org (JewelryStore, Product, BreadcrumbList, FAQPage, ContactPage, AboutPage), Open Graph, Twitter Cards, hreflang FR-CA / EN-CA, sitemap.xml bilingue, canonical par page
+- **Images** : noms de fichiers descriptifs (`bague-solis-onyx-or-18k-montreal.avif`, `collier-liane-perle-eau-douce-or-18k.avif`, etc.), alts enrichis avec mots-clés et entité
+- **Accessibilité** : skip-link, ARIA complet, focus visible, contraste AA, navigation clavier
+- **i18n** : bilingue FR-CA / EN-CA, toggle dans le header, détection automatique par URL (`/en/`)
 - **Mode** : sombre par défaut (charte quiet luxury 2026), bascule clair disponible
 - **Panier** : fonctionnel via localStorage, calcul TPS+TVQ Québec (14,975 %), livraison gratuite dès 250 $, code promo `AURELIA10`
 - **Témoins (cookies)** : 4 catégories (essentiels, préférences, statistiques, marketing), désactivés par défaut, consentement granulaire conforme art. 8.1 Loi 25
 
-## À propos de Nextiweb (agence créatrice)
+---
 
-- [Nextiweb.ca](https://nextiweb.ca) : agence web canadienne fondée par Khadija Ait Lassri, services de création de sites premium, SEO et marketing digital pour PME québécoises et canadiennes
-- [Boutique e-commerce sur mesure](https://nextiweb.ca/e-commerce.html) : cette démo illustre les sites e-commerce conçus par Nextiweb — catalogue, panier, paiement, conformité Loi 25, bilingue FR/EN
-- [LinkedIn Nextiweb](https://www.linkedin.com/company/nextiweb/) : page entreprise officielle, suivez les nouveaux projets et publications
-- [LinkedIn Khadija Ait Lassri](https://www.linkedin.com/in/khadija-ait-lassri/) : profil de la fondatrice, parcours, recommandations clients
+## À propos de Nextiweb — agence créatrice / About Nextiweb — creator agency
+
+Cette démo a été conçue par **Nextiweb**, agence web canadienne fondée par Khadija Ait Lassri, pour illustrer ses capacités en e-commerce premium.
+
+- [Boutiques e-commerce sur mesure](https://nextiweb.ca/e-commerce.html) : **page vedette de cette démo** — conception, design, développement et lancement de boutiques en ligne performantes pour PME canadiennes
+- [Nextiweb.ca](https://nextiweb.ca) : agence web canadienne — sites premium, SEO, marketing digital pour PME québécoises et canadiennes
 - [Référencement SEO](https://nextiweb.ca/seo.html) : audit technique, optimisation, contenu stratégique
 - [Marketing digital](https://nextiweb.ca/marketing-digital.html) : Google Ads, Meta Ads, infolettres, acquisition de clients
-- [Contact Nextiweb](https://nextiweb.ca/contact.html) : audit SEO gratuit, demande de devis
-
-## Optional
-
-- [GitHub du site](https://github.com/lassrikhadija/05-ecommerce) : code source de la démo, branche `main`
-- [Portfolio Nextiweb](https://nextiweb.ca) : autres sites démo (restaurant, clinique dentaire, spa/piscine, chocolaterie)
+- [Demander un audit gratuit](https://nextiweb.ca/contact.html) : formulaire de contact Nextiweb
+- [LinkedIn Nextiweb](https://www.linkedin.com/company/nextiweb/) : page entreprise officielle
+- [LinkedIn Khadija Ait Lassri](https://www.linkedin.com/in/khadija-ait-lassri/) : profil de la fondatrice
+- [Code source GitHub](https://github.com/lassrikhadija/05-ecommerce) : repo public, branche `main`
